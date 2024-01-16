@@ -1,0 +1,1 @@
+This repository contains the script that executes a Linkedin bot which removes the older follows an account has because of the Linkedin Connection Bot. There are some cases which we connect but when we send the connection we star following them. So this bot removes thoses cases where the person didnt accept the invitation but we are currently its follower.
