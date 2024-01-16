@@ -116,7 +116,7 @@ class LinkedinDriver:
         while True:
             all_buttons = self.driver.find_elements(By.XPATH, '//button[contains(@aria-label,"Haz clic para dejar de seguir a")]')
             if (number % 2 == 0)&(number > 4):
-                self.driver.execute_script(f"window.scrollBy(0, -{get_random_value_for_timer([160,210])});")
+                self.driver.execute_script(f"window.scrollBy(0, -{get_random_value_for_timer([150,250])});")
             time.sleep(get_random_value_for_timer([1,1.6]))
             removing_chats(self.driver)
             all_buttons[-1].click()
